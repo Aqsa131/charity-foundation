@@ -32,7 +32,7 @@ html p, body p {
 .fb{
     padding: 10px;
     font-size: larger;
-    border-left: 1px solid rgb(203, 203, 203);
+    border-left: 1px solid rgb(234 227 227);
     width: 60px;
     text-align: center;
     margin: 0;
@@ -370,9 +370,42 @@ html p, body p {
 #vertical{
     border-left: 1px solid rgb(191, 189, 189);
 }
+.staffImage{
+    width: 100%; 
+    height: auto;
+    vertical-align: middle
+}
+.iconTxt5 {
+    font-size: 27px;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    color: black;
+    line-height: 2.1;
+}
+.staffImage:hover{
+    #staff{
+        background-color: #fa6f1c;
+        color: white;
+        .changeColor{
+            color: white;
+        }
+    }
+}
 #staff{
     text-align: center;
     margin: auto;
+
+}
+#staff:hover{
+    background-color: #fa6f1c;
+    color: white;
+    .changeColor{
+        color: white;
+    }
+}
+.lowerHower{
+    text-align: center;
+    padding: 28px;
 }
 .staffIcon{
     display: flex;
@@ -741,13 +774,13 @@ html p, body p {
     border-color:  #fa6f1c;
 }
 #icon22{
-
     background: #3a559f;
     border: 2px solid #3a559f;
     color: white;
     width: 40px;
     align-content: center;
     text-align: center;
+    height: 33px;
 }
 #icon22:hover{
     background: white;
@@ -973,6 +1006,9 @@ html p, body p {
     .newlongLine3 span{
         left: 34%;
     }
+    .lowerHower{
+        padding: 10px;
+    }
 
 }
 @media (max-width : 770px){
@@ -987,7 +1023,7 @@ html p, body p {
     }
     
 } 
-@media (max-width : 767px){
+@media (max-width : 768px){
      #sec2{
         width:100%;
     } 
@@ -996,6 +1032,17 @@ html p, body p {
     }
     .newlongLine3 span{
         left: 37%;
+    }
+    #small2{
+        padding-top: 40px;
+    }
+    #small3{
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .featuretxt2{
+        margin: 0;
+        text-align: left;
     }
 }
 @media (max-width : 712px){
@@ -1031,6 +1078,32 @@ html p, body p {
         left: 35%;
     }
 }
+@media (max-width : 422px){
+    #topBar{
+        width: min-content;
+    }
+    #small1{
+        margin: auto;
+    }
+    .learnTxt1 {
+        margin: 33px 50px 10px 50px;
+    }
+    #small2{
+        padding-top: 50px;
+    }
+    .featuretxt2{
+        text-align: center;
+    }
+    .featuretxt{
+        font-size: large;
+    }
+    /* #icon22{
+        height: 32px;
+    } */
+   
+
+
+}
 @media (max-width : 393px){
     .newlongLine span {
         left: 72%;
@@ -1041,3 +1114,5 @@ html p, body p {
         left: 32%;
     }
 }
+
+
