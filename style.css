@@ -1082,6 +1082,11 @@ html p, body p {
     #topBar{
         width: min-content;
     }
+    .fb{
+        border:none;
+        text-align: left;
+        margin: 0;
+    }
     #small1{
         margin: auto;
     }
