@@ -757,6 +757,9 @@ html p, body p {
     font-size: smaller;
     font-weight: 700;
 }
+.pop:hover{
+    color: #fa6f1c;
+}
 #multiBtn{
     text-transform: uppercase;
     padding: 5px 11px;
@@ -767,6 +770,17 @@ html p, body p {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.025em;
+}
+.event{
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px; 
+    width:65% ;
+}
+.event:hover{
+    color:#fa6f1c;
 }
 #multiBtn:hover{
     color: white;
@@ -964,6 +978,9 @@ html p, body p {
 .human li{
     list-style: none;
     padding-top: 14px;
+}
+.human li:hover{
+    color: #e5832d;
 }
 #upComing{
     width: 80%;
